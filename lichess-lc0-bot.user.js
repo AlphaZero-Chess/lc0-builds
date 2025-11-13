@@ -6,7 +6,7 @@
 // @match        *://lichess.org/*
 // @run-at       document-start
 // @grant        none
-// @require      https://cdn.jsdelivr.net/gh/Leela-Chess/lc0-builds/lc0.wasm.js
+// @require      https://cdn.jsdelivr.net/gh/Leela-Chess/lc0-builds/real-engine.wasm.js
 // ==/UserScript==
 
 /**
