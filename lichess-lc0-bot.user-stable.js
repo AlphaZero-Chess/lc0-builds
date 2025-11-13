@@ -44,11 +44,11 @@
     // ADVANCED CONFIGURATION
     // ═══════════════════════════════════════════════════════════════════════
     const CONFIG = {
-        // Engine settings (Optimized for speed + no blunders)
-        movetime: 1000,              // Base thinking time (ms) - FAST!
+        // Engine settings (SUPER LIGHTWEIGHT)
+        movetime: 800,               // Base thinking time (ms) - VERY FAST!
         nodes: null,                 // Node count (null = use movetime)
         simulations: null,           // Not used in minimax mode
-        depth: 10,                   // Search depth (optimized for speed)
+        depth: 8,                    // Search depth (reduced for compatibility)
         multiPV: 1,                  // Number of lines to analyze
         threads: 1,                  // CPU threads (1 = no lag)
         temperature: 0.0,            // Move randomness (0.0 = deterministic)
@@ -791,9 +791,9 @@
             return;
         }
         
-        Logger.system(`Bot ready: ${CONFIG.movetime}ms movetime, Depth=${CONFIG.depth}, Anti-Blunder=ON`);
+        Logger.system(`Bot ready: ${CONFIG.movetime}ms movetime, Depth=${CONFIG.depth}, Simple Anti-Blunder=ON`);
         console.log('');
-        Logger.success('✓ Fast Anti-Blunder Engine loaded - No lag, No blunders!');
+        Logger.success('✓ Super Lightweight Engine - Browser Compatible!');
         Logger.info('Type window.Lc0Bot.help() for commands');
         console.log('');
     }
