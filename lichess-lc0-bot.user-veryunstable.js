@@ -6,7 +6,7 @@
 // @match        *://lichess.org/*
 // @run-at       document-start
 // @grant        none
-// @require      https://cdn.jsdelivr.net/gh/AlphaZero-Chess/lc0-builds@refs/heads/main/lc0-alphazero-mcts.wasm.js
+// @require      https://cdn.jsdelivr.net/gh/AlphaZero-Chess/lc0-builds@refs/heads/main/lc0-real-engine.wasm-stable.js
 // ==/UserScript==
 
 /**
